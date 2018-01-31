@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantReviews.Models\RestaurantReviews.Models.csproj" />
+    <ProjectReference Include="..\RestaurantReivews.Repository\RestaurantReviews.Repository.csproj" />
+  </ItemGroup>
+</Project>
